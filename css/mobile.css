@@ -1,0 +1,57 @@
+/* mobile */
+@media only screen and (max-width: 768px) {
+  :root {
+    --bgc: orchid;
+  }
+  #navbar-avt {
+    display: none;
+  }
+  #nav-bar .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #nav-bar a {
+    border: none;
+    padding: 10px 20px;
+  }
+  .navbar-info {
+    display: none;
+  }
+  #about .container {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+  }
+  #job-info .container {
+    grid-template-columns: 1fr;
+  }
+  .hobbies-container {
+    gap: 30px;
+  }
+  #certificate div.cert-container {
+    grid-template-columns: 1fr;
+  }
+  .cert-item {
+    border: none;
+    border-bottom: 1px #d6c08d solid;
+    padding-bottom: 30px;
+  }
+  .cert-item:nth-child(even) {
+    border-left: none;
+  }
+  .project-container {
+    flex-direction: column;
+  }
+  table,
+  tr,
+  td {
+    padding: 20px;
+  }
+  .project-work {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+  }
+  #footer span {
+    display: none;
+  }
+}
